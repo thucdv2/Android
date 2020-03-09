@@ -1,0 +1,521 @@
+<music>
+    <song>
+        <id>1</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>2</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>3</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>4</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>5</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>6</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>7</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>8</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>9</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>10</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>11</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>12</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>13</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>14</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>15</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>16</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>17</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>18</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>19</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>20</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>21</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>22</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>23</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>24</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>25</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>26</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>27</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>28</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>29</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>30</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+
+
+
+    <song>
+        <id>122</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>222</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>32</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>42</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>52</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>62</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>27</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>28</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>92</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>120</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>121</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>122</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>123</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>124</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>125</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>126</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>127</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>128</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>129</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>220</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>221</id>
+        <title>Someone Like You</title>
+        <artist>Adele</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/adele.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>222</id>
+        <title>Space Bound</title>
+        <artist>Eminem</artist>
+        <duration>4:38</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/eminem.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>223</id>
+        <title>Stranger In Moscow</title>
+        <artist>Michael Jackson</artist>
+        <duration>5:44</duration>
+        <thumb_url>https://api.androidhive.info/music/images/mj.png</thumb_url>
+    </song>
+    <song>
+        <id>224</id>
+        <title>Love The Way You Lie</title>
+        <artist>Rihanna</artist>
+        <duration>4:23</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/rihanna.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>225</id>
+        <title>Khwaja Mere Khwaja</title>
+        <artist>A R Rehman</artist>
+        <duration>6:58</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/arrehman.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>226</id>
+        <title>All My Days</title>
+        <artist>Alexi Murdoch</artist>
+        <duration>4:47</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/alexi_murdoch.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>227</id>
+        <title>Life For Rent</title>
+        <artist>Dido</artist>
+        <duration>3:41</duration>
+        <thumb_url>https://api.androidhive.info/music/images/dido.png</thumb_url>
+    </song>
+    <song>
+        <id>228</id>
+        <title>Love To See You Cry</title>
+        <artist>Enrique Iglesias</artist>
+        <duration>4:07</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/enrique.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>229</id>
+        <title>The Good, The Bad And The Ugly</title>
+        <artist>Ennio Morricone</artist>
+        <duration>2:42</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/ennio.png
+        </thumb_url>
+    </song>
+    <song>
+        <id>320</id>
+        <title>Show me the meaning</title>
+        <artist>Backstreet Boys</artist>
+        <duration>3:56</duration>
+        <thumb_url>
+            https://api.androidhive.info/music/images/backstreet_boys.png
+        </thumb_url>
+    </song>
+</music>
