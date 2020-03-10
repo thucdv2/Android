@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='ListViewWithImage'
+rootProject.name='musicoffline'

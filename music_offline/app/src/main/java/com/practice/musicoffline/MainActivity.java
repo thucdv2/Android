@@ -9,6 +9,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.practice.musicoffline.model.AudioModel;
+import com.practice.musicoffline.repo.AudioRepository;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -16,10 +21,12 @@ import org.w3c.dom.NodeList;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     // All static variables
     static final String inputFileName = "music.xml";
@@ -38,26 +45,29 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
 
         new RetrieveFeedTask().execute(inputFileName);
-
     }
 
     class RetrieveFeedTask extends AsyncTask<String, Void, String> {
 
         private Exception exception;
+        AudioRepository audioRepository;
 
         protected String doInBackground(String... urls) {
             try {
                 AssetManager assetManager = getAssets();
                 InputStream inputStream = null;
-                try {
-                    inputStream = assetManager.open(urls[0]);
-                } catch (IOException e) {
-                    Log.e("tag", e.getMessage());
-                }
-                return readTextFile(inputStream);
+//               inputStream = assetManager.open(urls[0]);
 
+                audioRepository = new AudioRepository();
+                audioRepository.getAllAudioFromDevice(MainActivity.this);
+                return readTextFile(inputStream);
             } catch (Exception e) {
                 this.exception = e;
                 return null;
@@ -82,23 +92,20 @@ public class MainActivity extends Activity {
         }
 
         protected void onPostExecute(String ret) {
-            XMLParser parser = new XMLParser();
+            List<AudioModel> audioModels = new ArrayList<AudioModel>(audioRepository.getAudioModelMap().values());
             ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
-            ret = ret.replace("<hr>", "");
-            Document doc = parser.getDomElement(ret); // getting DOM element
 
-            NodeList nl = doc.getElementsByTagName(MainActivity.KEY_SONG);
-            // looping through all song nodes <song>
-            for (int i = 0; i < nl.getLength(); i++) {
+            for (int i = 0; i < audioModels.size(); i++) {
+                AudioModel audioModel = audioModels.get(i);
                 // creating new HashMap
                 HashMap<String, String> map = new HashMap<String, String>();
-                Element e = (Element) nl.item(i);
+
                 // adding each child node to HashMap key => value
-                map.put(MainActivity.KEY_ID, parser.getValue(e, MainActivity.KEY_ID));
-                map.put(MainActivity.KEY_TITLE, parser.getValue(e, MainActivity.KEY_TITLE));
-                map.put(MainActivity.KEY_ARTIST, parser.getValue(e, MainActivity.KEY_ARTIST));
-                map.put(MainActivity.KEY_DURATION, parser.getValue(e, MainActivity.KEY_DURATION));
-                map.put(MainActivity.KEY_THUMB_URL, parser.getValue(e, MainActivity.KEY_THUMB_URL));
+                map.put(MainActivity.KEY_ID, audioModel.getId() + "");
+                map.put(MainActivity.KEY_TITLE, audioModel.getName());
+                map.put(MainActivity.KEY_ARTIST, audioModel.getArtist());
+                map.put(MainActivity.KEY_DURATION, audioModel.getDuration());
+                map.put(MainActivity.KEY_THUMB_URL, audioModel.getPath());
 
                 // adding HashList to ArrayList
                 songsList.add(map);
@@ -109,7 +116,6 @@ public class MainActivity extends Activity {
             // Getting adapter by passing xml data ArrayList
             adapter = new LazyAdapter(MainActivity.this, songsList);
             list.setAdapter(adapter);
-
 
             // Click event for single list row
             list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
