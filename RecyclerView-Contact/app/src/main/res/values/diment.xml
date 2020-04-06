@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_contact_image_list_margin_end">147px</dimen>
+    <dimen name="list_contact_image_list_w">60px</dimen>
+    <dimen name="list_contact_image_list_item_margin_left">27px</dimen>
+    <dimen name="list_contact_text_item_margin_start">105px</dimen>
+    <dimen name="list_contact_text_name_size">28px</dimen>
+    <dimen name="list_contact_text_phone_size">28px</dimen>
+    <dimen name="list_contact_text_header_w">66px</dimen>
+    <dimen name="layout_height_image_alphabet">108px</dimen>
+
+    <dimen name="contact_margin_start">96px</dimen>
+    <dimen name="layout_height_view_2">2px</dimen>
+    <dimen name="layout_width_view">900px</dimen>
+    <dimen name="layout_width_image_alphabet">108px</dimen>
+    <dimen name="list_contact_width_item_alphabet">126px</dimen>
+    <dimen name="list_contact_width_item_photo_contact">52px</dimen>
+    <dimen name="list_contact_height_item_photo_contact">52px</dimen>
+    <dimen name="list_contact_margin_left">10px</dimen>
+    <dimen name="list_contact_margin_left_photo_and_name">20px</dimen>
+    <dimen name="list_contact_margin_bottom_name_and_phone">0px</dimen>
+
+</resources>
